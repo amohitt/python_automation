@@ -2,7 +2,7 @@ import json
 import requests
 
 # Replace with the name of the repository you want to check
-repository = input("enter ther repository name")
+repository = input("Enter ther repository name:")
 
 # Make a request to the GitHub API to get the list of versions for the repository
 response = requests.get(f"https://api.github.com/repos/{repository}/tags")
